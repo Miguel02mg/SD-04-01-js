@@ -5,7 +5,19 @@ const arr = [
   ]
   
   // Type your code below this line!
-  
+  // Agregar un número a una fila existente
+  arr[0].push(99); //Agrega 99 al final de la primera fila
+
+  // Agregar una fila completa
+  arr.push([15,16,17,18,19]);
+
+  // Eliminar un número de una fila específica
+  arr[1].splice(2, 1); // elimina el 7 de la segunda fila
+
+  // Invertir una fila sin afectar las demás
+  arr[2].reverse(); //Invierte la tercer fila
+
+  console.log(arr);
   
   
   // Type your code above this line!
